@@ -35,7 +35,7 @@ func check(e error) {
 	}
 }
 
-// // TODO: Extract and configure structure.yaml to hold defaults for how each individual project will be set up
+// // TODO(#2): Extract and configure structure.yaml to hold defaults for how each individual project will be set up
 // func initStructure() {
 
 // }
