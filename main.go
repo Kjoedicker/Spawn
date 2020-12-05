@@ -11,7 +11,7 @@ import (
 func create(path string) {
 	_, err := os.Stat(path)
 
-	// TODO: is this error handling enough?
+	// TODO(#1): is this error handling enough?
 	if os.IsNotExist(err) {
 		errDir := os.MkdirAll(path, 0755)
 		if errDir != nil {
