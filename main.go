@@ -108,8 +108,8 @@ func getProject() string {
 }
 
 func main() {
-	if len(os.Args) < 2 && len(os.Args) > 3 {
-		fmt.Printf("Invalid number of arguments")
+	if len(os.Args) < 2 || len(os.Args) > 3 {
+		fmt.Println("Invalid number of arguments")
 		os.Exit(1)
 	}
 
