@@ -77,6 +77,11 @@ func getTemplate() string {
 	return fmt.Sprintf("%v/%v", templates, template)
 }
 
+// TODO(#3): add chdir functionality, with a flag to toggle
+func chdir() {
+
+}
+
 func mkproj() (string, error) {
 	path := filepath.Join(currentdir(), os.Args[1])
 
